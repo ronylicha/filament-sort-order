@@ -1,12 +1,12 @@
 {
-    "name": "ronylicha/filamentSortOrder",
+    "name": "ronylicha/filament-sor-order",
     "description": "This is my updated package filament-sort-order",
     "keywords": [
         "ronylicha",
         "laravel",
-        "FilamentSortOrder"
+        "Filament-sort-order"
     ],
-    "homepage": "https://github.com/ronylicha/filamentSortOrder",
+    "homepage": "https://github.com/ronylicha/filament-sort-order",
     "license": "MIT",
     "authors": [
         {
@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ronylicha\\filamentSortOrder\\": "src/",
-            "ronylicha\\filamentSortOrder\\Database\\Factories\\": "database/factories/"
+            "ronylicha\\FilamentSortOrder\\": "src/",
+            "ronylicha\\FilamentSortOrder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ronylicha\\filamentSortOrder\\Tests\\": "tests/"
+            "ronylicha\\FilamentSortOrder\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ronylicha\\filamentSortOrder\\FilamentSortOrderServiceProvider"
+                "ronylicha\\FilamentSortOrder\\FilamentSortOrderServiceProvider"
             ],
             "aliases": {
-                "FilamentSortOrder": "ronylicha\\filamentSortOrder\\Facades\\FilamentSortOrder"
+                "FilamentSortOrder": "ronylicha\\FilamentSortOrder\\Facades\\FilamentSortOrder"
             }
         }
     },
