@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ronylicha\\FilamentSortOrder\\": "src/",
-            "ronylicha\\FilamentSortOrder\\Database\\Factories\\": "database/factories/"
+            "ronylicha\\filamentSortOrder\\": "src/",
+            "ronylicha\\filamentSortOrder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ronylicha\\FilamentSortOrder\\Tests\\": "tests/"
+            "ronylicha\\filamentSortOrder\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ronylicha\\FilamentSortOrder\\FilamentSortOrderServiceProvider"
+                "ronylicha\\filamentSortOrder\\FilamentSortOrderServiceProvider"
             ],
             "aliases": {
-                "FilamentSortOrder": "ronylicha\\FilamentSortOrder\\Facades\\FilamentSortOrder"
+                "FilamentSortOrder": "ronylicha\\filamentSortOrder\\Facades\\FilamentSortOrder"
             }
         }
     },
