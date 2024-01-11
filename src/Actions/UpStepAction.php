@@ -1,6 +1,6 @@
 <?php
 
-namespace flexicom\FilamentSortOrder\Actions;
+namespace RonyLicha\FilamentSortOrder\Actions;
 
 use Closure;
 use Filament\Tables\Actions\Action;

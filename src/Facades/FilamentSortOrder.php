@@ -1,16 +1,16 @@
 <?php
 
-namespace flexicom\FilamentSortOrder\Facades;
+namespace RonyLicha\FilamentSortOrder\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \flexicom\FilamentSortOrder\FilamentSortOrder
+ * @see \RonyLicha\FilamentSortOrder\FilamentSortOrder
  */
 class FilamentSortOrder extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \flexicom\FilamentSortOrder\FilamentSortOrder::class;
+        return \RonyLicha\FilamentSortOrder\FilamentSortOrder::class;
     }
 }

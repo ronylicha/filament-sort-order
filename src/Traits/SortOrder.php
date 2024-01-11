@@ -1,6 +1,6 @@
 <?php
 
-namespace flexicom\FilamentSortOrder\Traits;
+namespace RonyLicha\FilamentSortOrder\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

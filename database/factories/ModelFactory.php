@@ -1,6 +1,6 @@
 <?php
 
-namespace flexicom\FilamentSortOrder\Database\Factories;
+namespace RonyLicha\FilamentSortOrder\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

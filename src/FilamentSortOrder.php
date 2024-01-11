@@ -1,6 +1,6 @@
 <?php
 
-namespace flexicom\FilamentSortOrder;
+namespace RonyLicha\FilamentSortOrder;
 
 class FilamentSortOrder
 {

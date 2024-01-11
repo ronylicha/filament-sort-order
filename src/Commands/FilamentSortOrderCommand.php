@@ -1,6 +1,6 @@
 <?php
 
-namespace flexicom\FilamentSortOrder\Commands;
+namespace RonyLicha\FilamentSortOrder\Commands;
 
 use Illuminate\Console\Command;
 
