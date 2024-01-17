@@ -25,6 +25,11 @@ trait SortOrder
         switch ($model->getTable()) {
             case "menu_produits":
                 return array("menu_categorie_id",$model->menu_categorie_id);
+
+                break;
+
+            case "menu_categories":
+                return array("menu_id",$model->menu_id);
         }
     }
     public function switchSortOrder($action, Model $model, $sort_order, $value): int
